@@ -1,18 +1,18 @@
 {
     "configVersion": 2,
-    "appIdentifier": "myapp.firstnativeapp",
-    "appName": "FirstNativeApp",
+    "appIdentifier": "isunon.workshopreport",
+    "appName": "WorkshopReport",
     "bundleName": {
-        "main": "FirstNativeApp",
-        "dev": "FirstNativeADev"
+        "main": "WorkshopReport",
+        "dev": "WorkshopRepoDev"
     },
     "deviceTarget": {
         "phone": true,
-        "tablet": false
+        "tablet": true
     },
     "orientation": {
         "portrait": true,
-        "landscape": false
+        "landscape": true
     },
     "permissions": [
         {
@@ -119,8 +119,8 @@
             "enabled": false
         },
         "nativeOTA": {
-            "enabled": true
+            "enabled": false
         }
     },
-    "hermesEnabled": true
+    "hermesEnabled": false
 }
